@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Randomuser.me</title>
+    <html lang="en"></html>
+    <meta charset="UTF-8">
+    <meta name="description" content="App that generate random users">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.scss">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  </head>
+  <body>
+    <!--APP MAIN CONTAINER-->
+    <div class="container">
+      <!--GENERATE CONTAINER-->
+      <div class="generateContainer">
+        <!--SELECT NATIONALITY-->
+        <select id="nationality"></select>
+        <!--SELECT USERS COUNT-->
+        <select id="userCount"></select>
+        <!--GENERATE BUTTON-->
+        <button id="generateButton">Generate</button>
+      </div>
+      <!--DISPLAY USERS CONTAINER-->
+      <div class="userBackground">
+        <p class="countryName"></p>
+      </div>
+      <!--DISPLAY LIST OF USERS-->
+      <div class="usersList"></div>
+    </div>
+    <!--SCRIPT-->
+    <script src="app.js"></script>
+  </body>
+</html>
