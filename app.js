@@ -89,7 +89,7 @@ const optionsNationality = [
     optionListNationality.add(new Option(option.text, option.value, option.selected))
   };
 
-//LISTA DOSTĘPNYCH KRAJÓW
+//LISTA OPCJI W DROPDOWN'IE USERCOUNT
 const optionListUserCount = document.getElementById('userCount').options;
 const optionsUserCount = [
     {
